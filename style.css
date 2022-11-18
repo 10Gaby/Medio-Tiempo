@@ -49,14 +49,39 @@ iframe{
     line-height: 1.5em;
 }
 
+/*SECCIÓN 1*/
+
+.sect1{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.sect1 iframe{
+    width: 100%;
+}
+
 
 /*SECCIÓN 2*/
 
 .sect2{
     display: grid;
-    grid-template-columns: 50% 50%;
     max-width: 80%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.sect2 iframe{
+    width: 100%;
+}
+
+.sect2 a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #E1B84B;
+}
+
+.sect2 h1{
+    margin: 50px 0;
 }
 
 /*SECCIÓN 3*/
