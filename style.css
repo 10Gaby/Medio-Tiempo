@@ -202,10 +202,13 @@ footer img{
 
 
 @media screen and (max-width: 780px) {
+    .portada img{
+        width: 120px;
+    }
     .integrantes{
         grid-template-columns: 1fr 1fr;
     }   
     .foto img{
-        width: 180px;
+        width: 150px;
     }
 }
