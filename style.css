@@ -186,3 +186,26 @@ footer img{
     align-self: center;
     justify-self: center;
 }
+
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1220px){
+    .sect3{
+        grid-template-columns: 100%;
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .integrantes{
+        grid-template-columns: 1fr 1fr;
+    }   
+    .foto img{
+        width: 180px;
+    }
+}
