@@ -9,16 +9,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+ <!-- Link Swiper's CSS -->
+ <link
+ rel="stylesheet"
+ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+/>
+
 </head>
 <body>
 
     <section class="portada">
+        <img src="img/logo.png" alt="">
         <h1>MEDIO TIEMPO</h1>
     </section>
 
     <section class="global-content">
 
-        <div class="descripción"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero illum perspiciatis sunt illo impedit odit sint, quis, laborum facilis voluptatem dolore voluptates necessitatibus! Minima a ut nobis officiis ad autem labore omnis facilis error fugiat, odit dolor modi asperiores tenetur soluta saepe animi dolorum deserunt ea neque quasi repellat veniam?</p></div>
+        <div class="descripción"><p>Colombia es un país que cuenta con diferentes grupos étnicos, entre ellos
+            encontramos los pueblos indígenas, las comunidades afrocolombianas que incluyen
+            los raizales del archipiélago de San Andrés, Providencia y Santa Catalina, y el pueblo
+            Rom o Gitano. Analizando esto, se entiende que Colombia es un país muy variado, en
+            materia de cultura, lingüística, diversidad, calidad humana y más. Por ello, en este
+            proyecto, se aborda la temática de la diversidad étnica de Colombia, en niños de 56a 12
+            años, puesto que es un tema de vital importancia para su desarrollo en la sociedad. <br><br>
+            
+            Por consiguiente y desde la perspectiva del diseño digital y multimedia, se
+            plantea hacer uso del cortometraje interactivo, como medio educativo sobre el tema de
+            la diversidad étnica. Para empezar, los métodos de aprendizaje tradicionales, han
+            evolucionado con el pasar de los años. Cada vez es más difícil hacer llegar la
+            información educativa a los niños, la falta de atención, distracción, desmotivación y más, genera desinterés por el aprendizaje. El formato audiovisual, plantea elementos
+            visuales, que son necesarios para llamar la atención del niño, además por medio de
+            narrativas, que permitan captar su atención y que simpaticen con sus gustos. <br><br>
+            
+            Es importante recalcar que con el proyecto, se busca enseñar a los niños sobre
+            la diversidad étnica, de una forma moderna y actualizada del mundo, por medio del
+            cortometraje interactivo. Sin embargo, no se busca que a partir de esto, los niños ya
+            sepan todo sobre la diversidad, o que se limiten a decidir qué es lo bueno o lo malo. El
+            enfoque del proyecto, busca generar un pensamiento crítico, participativo y activo por
+            parte de los infantes. Así mismo, proporcionar la información, para que los niños
+            comiencen a reconocer étnicamente su país desde una edad temprana y dejar la
+            puerta abierta, para que se sigan hablando de estos temas en espacios educativos y en
+            los hogares.</p></div>
         <section class="sect1">
             <iframe 
                 src="https://video.eko.com/v/zr9WN3?autoplay=true" 
@@ -38,6 +70,24 @@
             <div class="bloopers">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/TW6gT5QYLrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+
+            <div class="proceso"><!-- Swiper -->
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/proceso/2.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/3.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/4.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/5.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/6.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/8.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/9.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/10.jpeg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/proceso/12.jpeg" alt=""></div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div></div>
         </section>
 
         <section class="sect4">
@@ -80,6 +130,31 @@
     </section>
 
     <footer></footer>
+
+
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         spaceBetween: 30,
+         centeredSlides: true,
+         autoplay: {
+           delay: 2500,
+           disableOnInteraction: false,
+         },
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
 
 </body>
 </html>
